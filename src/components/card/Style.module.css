@@ -1,0 +1,25 @@
+.card{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: white;
+    width: 270px;;
+    height: 150px;
+    align-items: center;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+    background-color: #020659;
+    color: white;   
+}
+
+.inform1{
+    color: red;
+}
+
+
