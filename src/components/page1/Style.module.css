@@ -2,7 +2,7 @@
 
 :root {
     background: linear-gradient(#B3D5F2, #022859);
-    height: 950px;
+    height: max-content;
     font-family: "Roboto Condensed", sans-serif;
 }
 
@@ -19,8 +19,6 @@ li {
     border-radius: 15px;
     background-color: white;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
-    
-    
 }
 
 .now{
@@ -79,3 +77,17 @@ li {
     justify-content: space-between;
     margin: 1% 5% 0 5%;
  }
+
+ .footer {
+   display: flex;
+   height: 150px;
+   margin-top: 1%;
+   background-color: #F28705;
+   align-items: center;
+ }
+
+ .footer .logos{
+   display: flex;
+   justify-content: space-around ;
+ }
+

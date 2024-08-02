@@ -3,6 +3,7 @@ import Style from "../page1/Style.module.css";
 import Imagem from '../img/sol.png'
 import DataHoje from "../page2";
 import Card from '../card/Index.jsx';
+import Footer from "../footer/Index.jsx";
 
 const Header = () => {
   return (
@@ -27,6 +28,7 @@ const Header = () => {
         <Card inform1='temperatura' inform2='21°'></Card>
         <Card inform1='temperatura' inform2='21°'></Card>
       </div>
+      <Footer/>
     </nav>
   );
 };

@@ -1,0 +1,19 @@
+.footer{
+    background-color: #B3D5F2;
+    margin-top: 1%;
+    
+}
+
+.logos{
+    display: flex;
+    height: 70px;
+    justify-content: space-around;
+    padding: 1%;
+}
+
+.email{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding: 1.5%;
+}
