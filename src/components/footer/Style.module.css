@@ -1,5 +1,6 @@
+
 .footer{
-    background-color: #B3D5F2;
+    background-color: #DCE6DC;
     margin-top: 1%;
     
 }
@@ -14,6 +15,7 @@
 .email{
     text-align: center;
     color: black;
-    font-weight: bold;
+    
     padding: 1.5%;
+    
 }

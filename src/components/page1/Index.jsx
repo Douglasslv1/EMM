@@ -6,10 +6,11 @@ import Card from '../card/Index.jsx';
 import Footer from "../footer/Index.jsx";
 
 const Header = () => {
+
   return (
     <nav className={Style.nav}>
       <div className={Style.container}>
-        <li>Recife</li>
+        <p>Recife | Pernambuco</p>
       </div>
       <div className={Style.mid}>
         <div className={Style.now}>
@@ -20,11 +21,10 @@ const Header = () => {
         <div className={Style.info}>
           <h1>Informações</h1>
         </div>
-        
       </div>
       <div className={Style.card}>
         <Card inform1='temperatura' inform2='21°'></Card>
-        <Card inform1='temperatura' inform2='21°'></Card>
+        <Card inform1='asdadsa' inform2='32°'></Card>
         <Card inform1='temperatura' inform2='21°'></Card>
         <Card inform1='temperatura' inform2='21°'></Card>
       </div>

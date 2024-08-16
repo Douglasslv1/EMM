@@ -12,9 +12,8 @@
 }
 
 .card:hover{
-    transform: scale(1.1);
     transition: 0.2s;
-    background-color: #020659;
+    background-color: #0A1449;
     color: white;   
 }
 

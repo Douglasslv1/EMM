@@ -14,6 +14,7 @@ const DataHoje = () => {
     // Obter a data de hoje e formatar
     const hoje = new Date();
     setData(formatarData(hoje));
+  
   }, []);
 
   return (
