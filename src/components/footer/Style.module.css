@@ -1,6 +1,6 @@
 
 .footer{
-    background-color: #DCE6DC;
+    background-color: #83D95B;
     margin-top: 1%;
     
 }
@@ -10,12 +10,14 @@
     height: 70px;
     justify-content: space-around;
     padding: 1%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .email{
     text-align: center;
     color: black;
-    
+    font-weight: bolder;
     padding: 1.5%;
     
 }

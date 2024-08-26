@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    background: linear-gradient(#B3D5F2, #022859);
+    /*background: linear-gradient(#B3D5F2, #022859);*/
+    background-image: url(../img/backgroundBody.jpg);
     height: max-content;
     font-family: "Roboto Condensed", sans-serif;
+    background-size: cover;
 }
 
 li {
@@ -44,6 +46,7 @@ li {
     background-color: white;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
     height: 500px;
+    
 }
 
  .mid{
@@ -59,12 +62,29 @@ li {
 
  .info h1{
     padding: 5%;
-    background-color: #020659; 
+    background-color: #4D8C20; 
     margin: 0px;
     border-radius: 14px 14px 0px 0px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
     color: white;
     text-align: center;
+ }
+
+ .classificacao{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   justify-content: space-around;
+   margin-top: 5%;
+ }
+
+ .classificacao p{
+   padding: 3%;
+ }
+
+ .classificacao hr{
+   margin-left: 7%;
+   margin-right: 7%;
  }
 
  .imgsol {
